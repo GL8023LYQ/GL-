@@ -1,4 +1,4 @@
-/*弹性布局  */
+/*锟斤拷锟皆诧拷锟斤拷  */
 
 * {
     margin: 0;
@@ -10,16 +10,16 @@
     height: 800px;
     margin: 0 auto;
     display: flex;
-    /* 弹性指向 列 */
-     /*flex-direction: column;*/
-    /*反转列 */
-     /*flex-direction: column-reverse;*/
-    /*饭转行  */
-    /*flex-direction: row-reverse;*/
-    /*flex-wrap:wrap-reverse;*/
-    flex-flow: row wrap;
-    /*justify-content: center;*/
-    /*align-items: center;*/
+
+     flex-direction: column;
+
+     flex-direction: column-reverse;
+
+    flex-direction: row-reverse;
+    flex-wrap:wrap-reverse;
+    /*flex-flow: row wrap;*/
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
